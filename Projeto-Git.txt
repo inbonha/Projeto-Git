@@ -1,0 +1,14 @@
+create database escola
+use escola
+
+create table aluno (
+RA_aluno int primary key,
+nome_aluno varchar (50)
+telefone_aluno varchar (50)
+)
+
+create table professor (
+RM_professor int primary key,
+nome_professor varchar (50)
+telefone_professor varchar (50)
+)
